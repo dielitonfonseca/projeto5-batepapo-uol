@@ -9,7 +9,7 @@
 }
 
 .login-page img{
-    margin-top: 72px;
+    margin-top: 95px;
     height: 92px;
     width: 130px;
     margin-bottom: 94px;
@@ -101,9 +101,6 @@ header ion-icon{
 
 }
 
-.message-text.private{
-    background-color: #FFDEDE;
-}
 .input-box::placeholder{
     
     font-family: Roboto;
@@ -170,7 +167,6 @@ line-height: 16px;
 letter-spacing: 0em;
 }
 
-
 aside{
     background: rgba(0, 0, 0, 0.6);
     height: 100%;
@@ -179,22 +175,14 @@ aside{
     right: 0;
     top: 0px;
     display: flex;
-    
 }
+
 .overside{
     background: rgba(0, 0, 0, 0);
     width: 30%;
     height: 100%;
     
 
-}
-.persons-list{
-    padding-top: 5px ;
-    padding-bottom: 0px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .tipo-envio{
@@ -220,25 +208,24 @@ aside{
 }
 
 .person-in-list,.todos ion-icon{
-font-size: 21px; 
+    font-size: 21px; 
 }
 
 
 
 
 .title-side{
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: center;
-color: #000000;
-margin: 50px 20px;
-
-
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    margin: 50px 20px;
 }
+
 .content-side-box{
     width: 40%;
     height: 100%;
@@ -248,7 +235,6 @@ margin: 50px 20px;
     top: 0px;
     padding-left: 18px;
     padding-right: 18px;
-
     overflow-y: scroll;
 }
 
@@ -258,20 +244,22 @@ margin: 50px 20px;
     align-items: center;
     justify-content: space-between;
 }
+
 .left-content{
     display: flex;
 }
+
 ion-icon.icon-check{
     display: none;
     color: #28BB25;
     font-size: 18px;   
 }
+
 ion-icon.icon-check1{
     display: none;
     color: #28BB25;
     font-size: 18px;   
 }
-
 
 ion-icon.lateral-icons{
     font-size: 18px;
